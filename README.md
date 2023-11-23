@@ -1,5 +1,5 @@
 # Challenge ONE | Java | Back-end | Hotel Alura
-Este proyecto consiste en un programa que se encargue de gestionar un hotel  :hotel: (**México Mágico Suites**). Donde podremos primeramente loguearnos, realizar una reserva, ingresar datos del huésped, así como editar ambos. Para el desarrollo de este proyecto se siguió la metodología MVC y algunas bibliotecas de terceros, el programa está elaborado en lenguaje **Java** :coffee: para toda la interfaz y **MySQL** para la base de datos.
+Este proyecto consiste en un programa que se encargue de gestionar un hotel  :hotel: (**México Mágico Suites**). Donde podremos primeramente loguearnos, realizar una reserva, ingresar datos del huésped, así como editar ambos, el programa está elaborado en lenguaje **Java** :coffee: para toda la interfaz y **MySQL** para la base de datos.
 ## <img width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/> Tecnologías Utilizadas:
 
 - Java
@@ -46,15 +46,16 @@ CREATE TABLE huespedes (
     FOREIGN KEY (id_reserva) REFERENCES reservas(id)
 );
 ```
+## ⚙️ Configurando la Conexión a MySQL:
+Para que la aplicación funcione correctamente, es necesario configurar la conexión a la base de datos MySQL mediante el uso de variables de entorno.
 
-### Componentes:  :pencil:
+## :pencil: Componentes:  
 - :one: Vista menu principal.
 - :two: Vista de inicio de sesión.
 - :three: Vista menu usuario.
 - :four: Vista registro de reserva.
-- :five: Vista administracion de habitaciones
-- :six: Vista configuraciones (Solo administradores)
-	- Vista añadir nuevo usuario
+- :five: Vista registro de huésped.
+- :six: Vista búsqueda y edición.
 
 1. :arrow_forward: Vista menu principal:
 Esta es la primera interfaz que se ejecuta en donde podemos seleccionar, iniciar sesión o registrarse (en creación).
@@ -76,4 +77,17 @@ En esta interfaz nos permite realizar una reserva, seleccionando tanto la fecha 
 
 ![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2812).png)
 ![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2813).png)
+
+5. :arrow_forward: Vista registro de huésped:
+En esta interfaz nos permite registrar los datos del huésped: nombre, apellido, fecha de nacimiento, nacionalidad y teléfono, así como un campo para nuestro número de reserva que es autogenerado y no editable. Una vez estén correctos nuestros datos se lanza ventana informando los datos guardados satisfactoriamente.
+
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2814).png)
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2815).png)
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2820).png)
+
+6. :arrow_forward: Vista búsqueda y edición:
+En esta interfaz nos permite realizar una búsqueda, ya sea por número de reserva o apellido, así mismo editar tanto nuestra reserva como nuestro huésped, abriendo nuevos cuadros de diálogo para insertar los nuevos datos.
+
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2817).png)
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2819).png)
 --- 
