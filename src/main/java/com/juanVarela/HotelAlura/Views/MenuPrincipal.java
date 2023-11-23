@@ -120,7 +120,7 @@ public class MenuPrincipal extends JFrame {
 		panel_2.setBounds(23, 47, 150, 35);
 		panel.add(panel_2);
 
-		JLabel login = new JLabel("Login");
+		JLabel login = new JLabel("Iniciar Sesión");
 		panel_2.add(login);
 		login.setForeground(SystemColor.white);
 		login.setFont(new Font("Roboto", Font.PLAIN, 16));
