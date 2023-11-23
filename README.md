@@ -50,15 +50,30 @@ CREATE TABLE huespedes (
 ### Componentes:  :pencil:
 - :one: Vista menu principal.
 - :two: Vista de inicio de sesión.
-- :three: Vistra principal (registro de huespedes)
-	- Modificar informacion de usuario
-- :four: Vista administracion de huespedes
+- :three: Vista menu usuario.
+- :four: Vista registro de reserva.
 - :five: Vista administracion de habitaciones
 - :six: Vista configuraciones (Solo administradores)
 	- Vista añadir nuevo usuario
-1. :arrow_forward: Vista menu principal
-Esta es la primera interfase que se ejecuta en donde podemos seleccionar iniciar sesion o registrarse (en creacion)
 
+1. :arrow_forward: Vista menu principal:
+Esta es la primera interfaz que se ejecuta en donde podemos seleccionar, iniciar sesión o registrarse (en creación).
 
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2809).png)
 
+2. :arrow_forward: Vista de inicio de sesión:
+En esta interfaz podremos loguearnos introduciendo nombre de usuario y contraseña (por el momento solo cuenta con un único usuario: admin contraseña: admin).
+
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2810).png)
+
+3. :arrow_forward: Vista menu usuario:
+En esta interfaz nos da la bienvenida mostrándonos una leyenda, fecha y hora actual, así como dos opciones para ingresar a realizar una búsqueda o realizar un registro de reserva.
+
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2811).png)
+
+4. :arrow_forward: Vista registro de reserva:
+En esta interfaz nos permite realizar una reserva, seleccionando tanto la fecha de entrada como la de salida, la cual nos genera el costo por noche, tomando en cuenta que el costo por noche es de $250.00 y nos permite seleccionar la forma de pago: Tarjeta de crédito, débito o efectivo.
+
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2812).png)
+![Menu Principal](https://github.com/juanVarela666/Hotel-Alura/blob/main/img/Captura%20de%20pantalla%20(2813).png)
 --- 
