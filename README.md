@@ -49,7 +49,7 @@ CREATE TABLE huespedes (
 ## ⚙️ Configurando la Conexión a MySQL:
 Para que la aplicación funcione correctamente, es necesario configurar la conexión a la base de datos MySQL mediante el uso de variables de entorno.
 ```env
-DB_URL=nombre_del_servidor_mysql:puerto/nombre_de_la_base_de_datos
+DB_URL=jdbc:mysql://localhost:3306/nombre_base_datos
 DB_USER=nombre_de_usuario_mysql
 DB_PASSWORD=contraseña_mysql
 ```
